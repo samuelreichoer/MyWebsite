@@ -40,11 +40,11 @@
           <span class="m-left">m</span>
 
           <span class="name">S</span>
-          <span class="m-left">a</span>
-          <span class="m-left">m</span>
-          <span class="m-left">u</span>
-          <span class="m-left">e</span>
-          <span class="m-left">l</span>
+          <span class="m-left name">a</span>
+          <span class="m-left name">m</span>
+          <span class="m-left name">u</span>
+          <span class="m-left name">e</span>
+          <span class="m-left name ">l</span>
           <br>
           <span>W</span>
           <span class="m-left">e</span>
@@ -65,7 +65,7 @@
       </div>
 
         <div class="profile-image">
-          <img src="" alt="">
+          <img src="img/profile-trump.png" alt="">
         </div>
     </div>
 
@@ -89,15 +89,17 @@
           <img src="img/dotted-shape.png" alt="">
     </div>
 
-
+    
     <div class="container skills" id="skills">
-
+      
       <h1>Skills</h1>
 
       <p class="skills-info"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
         invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam 
         t justo duo dolores et ea rebum. Stet clita kasd gubergren,</p>
-
+        <br>
+        <br>
+        <br>
         <div class="html">
           <div class="tag-html">
             <p>HTML</p>
@@ -136,24 +138,25 @@
     <div class="container work" id="work">
       <h1>Work</h1>
       <div class="work-category">
-        <button id="designing" class="active">Web Designing</button>
-        <button id="animation"> Web Animation</button>
-        <button id="project">My Projects</button>
+        <button id="designing" class="active" onclick="showRequiredCategory(this)">Web Designing</button>
+        <button id="animation"onclick="showRequiredCategory(this)"> Web Animation</button>
+        <button id="project"onclick="showRequiredCategory(this)">My Projects</button>
       </div>
 
-        <div class="category-designing showCategory"></div>
+        <div class="category-designing showCategory">
         <a href=""><img src="img/1.png"></a>
         <a href=""><img src="img/2.png"></a>
         <a href=""><img src="img/3.png"></a>
         <a href=""><img src="img/2.png"></a>
+        <a href=""><img src="img/3.png"></a>
         </div>
-        <div class="category-designing hideategory"></div>
+        <div class="category-animation hideCategory">
         <a href=""><img src="img/1.png"></a>
         <a href=""><img src="img/2.png"></a>
         <a href=""><img src="img/3.png"></a>
 
         </div>
-        <div class="category-designing hideCategory"></div>
+        <div class="category-project hideCategory">
         <a href=""><img src="img/1.png"></a>
         <a href=""><img src="img/2.png"></a>
         <a href=""><img src="img/3.png"></a>
